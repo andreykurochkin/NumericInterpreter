@@ -12,10 +12,12 @@ public class UnitTest1
 
     private LexWrapper _sut = new();
     
-    [Fact]
-    public void Lex_ShouldReturnExpectedValue_WhenDataIsValid()
+    [Theory]
+    [InlineData("1+(2+3)")]
+    [InlineData(" 1 + ( 2 + 3 )")]
+    [InlineData(" 1 + (2+3)")]
+    public void Lex_ShouldReturnExpectedValue_WhenDataIsValid(string input)
     {
-        const string input = "1+(2+3)";
         List<Token> expected = new()
         {
             new Token(Token.Type.Number, "1"),

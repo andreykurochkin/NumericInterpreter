@@ -12,6 +12,8 @@ public class Lexer
         {
             switch (input[i])
             {
+                case ' ':
+                    break;
                 case '+':
                     result.Add(new Token(Token.Type.Plus, "+"));
                     break;
