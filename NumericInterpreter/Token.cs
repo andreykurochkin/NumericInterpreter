@@ -1,10 +1,9 @@
 ﻿namespace NumericInterpreter;
 
+
+
 public class Token
 {
-    private readonly Type _type;
-    private readonly string _text;
-
     public enum Type
     {
         Number,
@@ -15,9 +14,9 @@ public class Token
         Lparen,
         Rparen
     }
-
-    public Token(Type type, string text) => (_type, _text) = (type, text);
-    public override string ToString() => $"{_text}";
-}
-
+    
+    public readonly Type ThisType;
+    public readonly string Text;
+    public Token(Type type, string text) => (ThisType, Text) = (type, text);
+    public override string ToString() => $"`{Text}`";
 }

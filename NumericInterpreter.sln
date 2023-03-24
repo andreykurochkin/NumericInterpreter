@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericInterpreter", "NumericInterpreter\NumericInterpreter.csproj", "{55E7223F-2732-43B4-9CF2-1BFD22B71DCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericInterpreterTests", "NumericInterpreterTests\NumericInterpreterTests.csproj", "{347F3C04-D0B9-4853-93E0-91224EE2D9DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{55E7223F-2732-43B4-9CF2-1BFD22B71DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E7223F-2732-43B4-9CF2-1BFD22B71DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E7223F-2732-43B4-9CF2-1BFD22B71DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347F3C04-D0B9-4853-93E0-91224EE2D9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347F3C04-D0B9-4853-93E0-91224EE2D9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347F3C04-D0B9-4853-93E0-91224EE2D9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347F3C04-D0B9-4853-93E0-91224EE2D9DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

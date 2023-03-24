@@ -45,8 +45,9 @@ public class Lexer
                             break;
                         }
                     }
+                    break;
             }
         }
-        
-    private static ParseNumber()
+        return result;
+    }
 }
